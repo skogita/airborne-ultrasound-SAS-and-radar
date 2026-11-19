@@ -6,14 +6,15 @@ The book studies, **by simulation only (no real device was built)**, how an airb
 
 ## Download
 
-**Ready-to-run apps are on the [Releases](../../releases) page**, not in this repository. The release has two ZIPs:
+**Ready-to-run apps are on the [Releases](../../releases) page**, not in this repository. The release has three ZIPs:
 
 | File | Contents |
 |:---|:---|
 | `sasmob_exe.zip` | The two Windows apps, ready built (**Japanese screens**), in separate folders (`processor\` and `simulator\`), with the engine source (`tools_for_run\`), `requirements.txt`, sample settings and the license files |
 | `sasmob_exe_en.zip` | The same two apps (**English screens**) |
+| `sasmob.zip` | The **design documents** (123, Japanese), the **source code** (Python engine and the Flutter sources of the two apps) and the **empty database rules** (`ledger/db/schemas/`; no registered rows). Tests, data and results are not included |
 
-The apps need Python 3.11 or later on your PC (see the README inside the ZIPs; run `pip install -r requirements.txt`). The apps are **not code-signed**, so Windows may warn you. There is no APK. Data and processing results are not included; the simulator makes the raw data. **Creating raw data takes 1 to 8 minutes** depending on the machine. The design documents and the full source tree are not published in this release.
+The apps need Python 3.11 or later on your PC (see the README inside the ZIPs; run `pip install -r requirements.txt`). The apps are **not code-signed**, so Windows may warn you. There is no APK. Data and processing results are not included; the simulator makes the raw data. **Creating raw data takes 1 to 8 minutes** depending on the machine. Tests are in no ZIP.
 
 You are free to change the code and compare the results.
 
